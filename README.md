@@ -16,8 +16,8 @@ Upload the csv or xml file as 'file' attribute in POST body   <br/>
 
 # Modules
 
-•	ControllerStatementProcessController handles th request & response.  <br/>
-•	Service StatementProcessService prepares the output using other modules.   <br/>
-•	FileProcessorFactory is to create input file processor based on the file type   <br/>
+•	"ControllerStatementProcessController" handles request & response.  <br/>
+•	Service "StatementProcessService" prepares the output using other modules.   <br/>
+•	"FileProcessorFactory" is to create input file processor based on the file type(CSV/XML)   <br/>
 •	StatementValidator is for the validations.  <br/>
 
